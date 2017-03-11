@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         }
         let vc = storyboard?.instantiateViewController(withIdentifier: identifier)
         navigationController?.pushViewController(vc!, animated: true)
+        closeMenu()
         
     }
     
